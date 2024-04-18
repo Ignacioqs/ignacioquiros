@@ -1,0 +1,40 @@
+.bioContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.bioContainer img {
+  width: 100%;
+  border-radius: 50%;
+  max-width: 300px;
+  margin: 20px auto 30px;
+}
+
+.bioContainer p {
+  font-size: 16px;
+  text-transform: none;
+  font-weight: 200;
+  line-height: 24px;
+  margin: 10px auto 0;
+  max-width: 400px;
+}
+
+p:nth-child(1) {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.contact {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact img {
+  width: 33px;
+  border-radius: 0;
+  margin: 30px 15px 0 0;
+}
