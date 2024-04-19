@@ -19,8 +19,12 @@ const Bio = () => {
         </p>
       </div>
       <div className={classes.contact}>
-        <img src={Insta} />
-        <img src={Mail} />
+        <a href="https://www.instagram.com/ignacioqsal/?hl=es-la">
+          <img src={Insta} />
+        </a>
+        <a href="mailto:nachoqs@gmail.com" target="_blank">
+          <img src={Mail} />
+        </a>
       </div>
     </div>
   );

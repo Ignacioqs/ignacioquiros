@@ -9,10 +9,7 @@ function App() {
     <div className={classes.container}>
       <Header />
       <Routes>
-        <Route
-          path="https://ignacioqs.github.io/ignacioquiros/"
-          element={<Navigate replace to="/home" />}
-        />
+        <Route path="/" element={<Navigate replace to="/home" />} />
         <Route path="/home" element={<Home />} />
         <Route path="/bio" element={<Bio />} />
       </Routes>
