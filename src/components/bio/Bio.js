@@ -9,14 +9,7 @@ const Bio = () => {
       <img src={data.portrait} />
       <div>
         <p>1978. San José, Costa Rica. </p>
-        <p>
-          Una primera formación con los artistas Nela Salgado y Héctor Burke me
-          lleva a estudiar grabado y pintura en la Universidad de Costa Rica.
-        </p>
-        <p>
-          Me interesa la idea de crear una imagen que aunque sugiera una
-          interpretación narrativa sea incapaz de proporcionarla.
-        </p>
+        <p></p>
       </div>
       <div className={classes.contact}>
         <a href="https://www.instagram.com/ignacioqsal/?hl=es-la">
